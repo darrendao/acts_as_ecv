@@ -11,8 +11,11 @@ It&apos;s hosted on [rubygems.org][rubygems].
 ## Usage
 
 ```ruby
-     # add this to environment.rb 
+     # Rails 2.3.x, add this to environment.rb 
      config.gem 'acts_as_ecv'
+
+     # Rails 3, add this to Gemfile
+     gem 'acts_as_ecv'
 
      # Now, create a controller that will serve up the ecv 
      # For example, in ecv_controllers.rb 
