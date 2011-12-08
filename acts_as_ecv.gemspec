@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name = %q{acts_as_ecv}
-  s.version = "0.0.2"
+  s.version = "0.0.3"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Darren Dao"]
@@ -12,7 +12,7 @@ Gem::Specification.new do |s|
   s.rdoc_options = ["--inline-source", "--charset=UTF-8"]
   s.require_paths = ["lib"]
   s.rubygems_version = %q{1.3.1}
-  s.summary = %q{blah}
+  s.summary = %q{acts_as_ecv is a simple ruby gem that helps add ecv (Extended Content Verification) to Rails webapp}
 
   if s.respond_to? :specification_version then
     current_version = Gem::Specification::CURRENT_SPECIFICATION_VERSION
